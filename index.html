@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo Random</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <head>
+        <h1> Jogo De Numeracao Random </h1>
+    </head>
+ <section id="regras">
+    <h3>Regras do Jogo</h3>
+    
+    <ul>
+        <li>Voce Tera 3 Chances de Acertar o numero</li>
+        <li>O sistema informara se o numero digitado e menor ou maior</li>
+        <li>Basta digitar um numero de 0 a 100 no campo livre e estara jogando</li>
+    </ul>
+   </section>
+   <section id="jogo">
+    <label for="calcular">Insira o valor:</label>
+      <input id="calcular">
+      <button onclick="shownumber()" id="acharnumero" type="button">Chutar</button>
+   </section>
+   <p> O resultado esta :</p>
+   <p id="tentativas"> Voce ainda tem : 10 chances</p>
+</body>
+</html>
+<!--
+Crie um arquivo HTML com a seguinte estrutura:
+
+Um título para o jogo (ex: "Jogo de Adivinhação").✓
+
+Uma mensagem inicial explicando como o jogo funciona.✓
+
+Um campo de input para o jogador inserir seu palpite.✓
+
+Um botão com o texto "Chutar".✓
+
+Uma tag <p> para exibir as mensagens do jogo (dicas, resultado, etc.).✓
+
+Uma tag <p> para exibir o número de tentativas restantes.✓
+    -->
