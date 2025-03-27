@@ -1,5 +1,5 @@
 
-let numerotentavivas = 10;
+let numerotentavivas = 15;
 const numeroSecreto =Math.floor(Math.random() * 100) + 1;
 console.log(numeroSecreto);
 
