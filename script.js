@@ -29,11 +29,11 @@ const calcular =parseInt(document.getElementById("calcular").value);
     return;
   }
    else if (calcular < numeroSecreto){
-    document.getElementById("resultado").innerText = "Voce errou, o numero e maior que o Resultado.";
+    document.getElementById("resultado").innerText = "Voce errou, o numero digitado e menor que o Resultado.";
     return;
    }
    else{
-   document.getElementById("resultado").innerText = "Voce errou, o numero e menor que o Resultado.";
+   document.getElementById("resultado").innerText = "Voce errou, o numero digitado e maior que o Resultado.";
    return;
 }
 }
